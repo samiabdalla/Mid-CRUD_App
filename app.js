@@ -4,7 +4,7 @@ const app = express();
 app.use(bodyParser.json());
 const path = require('path');
 
-const db = require("./db");
+const db = require("./dbConnect");
 const collection = "todo";
 
 db.connect((err)=>{
