@@ -1,5 +1,5 @@
 {
-  "name": "expressjs",
+  "name": "express",
   "version": "1.0.0",
   "description": "Hummm, CRUD app using Node.js &amp; MongoDB",
   "main": "app.js",

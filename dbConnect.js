@@ -19,7 +19,7 @@ const connect = (cb) =>{
           state.db = client.db(dbname);
           cb();
         }
-        });
+    });
   }
 }
 

@@ -14,7 +14,7 @@ db.connect((err)=>{
   }
   else{
     app.listen(3000,()=>{
-      console.log('Connected to database, listening now...')
+      console.log('Connected to database, listening now...');
     });
   }
 })
