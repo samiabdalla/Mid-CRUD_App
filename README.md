@@ -1,5 +1,5 @@
 # Mid-CRUD_App
-Simple CRUD app using Node.js &amp; MongoDB
+Hummm, CRUD app using Node.js &amp; MongoDB
 
 Highlights:
 - Back-End: Node.js & Express.js
