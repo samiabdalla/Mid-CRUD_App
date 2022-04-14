@@ -1,8 +1,8 @@
 const MongoClient = require("mongodb").MongoClient;
 const ObjectID = require('mongodb').ObjectID;
-const dbname = "CRUD_Serverless";
+const dbname = "crud";
 const url = "mongodb://localhost:27017";
-const mongoOptions = {useNewURLParser : true}
+const mongoOptions = {useNewUrlParser : true}
 
 const state = {
   db : null
@@ -18,6 +18,7 @@ const connect = (cb) =>{
         else{
           state.db = client.db(dbname);
           cb();
+        }
         });
   }
 }
